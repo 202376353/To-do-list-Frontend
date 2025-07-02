@@ -6,7 +6,8 @@ import axios from 'axios';
 
 const App = () => {
   const [todos, setTodos] = useState([]);
-  const API_URL = 'http://localhost:5000/api/todos';
+  const API_URL = 'https://to-do-list-backend-07bf.onrender.com/api/todos';
+
 
   const fetchTodos = async () => {
     try {
